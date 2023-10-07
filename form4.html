@@ -37,36 +37,50 @@
             <td>Send My Order</td>
         </tr>
     </table> -->
-    <table border="2" align="center" cellpadding="10">
+    <table border="2" align="center" cellpadding="">
         <tr>
             <th colspan="2">Pizza Shop 2.0</th>
         </tr>
         <tr>
             <th>Name</th>
-            <td><input type="text"></td>
+            <td><input type="text" name="pizza"></td>
         </tr>
         <tr>
             <th>Pizza Topping</th>
-            <td><input type="radio">Supreme  <input type="radio">Vegitarian    <input type="radio">Hawalian</td>
-         
+             <td>
+                <input type="radio">Supreme
+                <br>
+                <input type="radio">Vegitarien
+                <br>
+                <input type="radio">Hawalian
+             </td>         
     
         </tr>
         <tr>
             <th>Pizza Sauce</th>
-            <td><input type="text" placeholder="Tomata"></td>
+            <td>
+                <select>
+                    <option>Tomato</option>
+                    <option>Brinjal</option>
+                    <option>Potato</option>
+                </select>
+            </td>
         </tr>
         <tr>
             <th>Optional Extras</th>
             <td><input type="checkbox">Extra Cheese <input type="checkbox">Gluten free Base</td>
         </tr>
         <tr>
-            <th>Delivery Instruction</th>
+            <!-- <td colspan="3">            Delivery Instruction:
+                <textarea></textarea></td> -->
+                <td colspan="2">Delivery Instruction:
+                    <br>
+                    <textarea style="width: 400px;"></textarea>
+                </td>
         </tr>
         <tr>
-            <td colspan="3"><textarea></textarea></td>
-        </tr>
-        <tr>
-            <th colspan="3">Send My Order</th>
+            <td colspan="3">
+                <input type="button" value="Send My Order"></td>
         </tr>
     </table>
     
